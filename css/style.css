@@ -19,7 +19,7 @@ label{
     color: #B91450;
 }
 
-input{
+input, select{
     border: 2px solid #B91450;
     text-align: center;
 }

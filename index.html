@@ -27,15 +27,16 @@
                         <input class="rounded fw-semibold" id="km" name="km" type="number">
                     </div>
                     <div class="col-3">
-                        <label for="age" class="py-3 fw-medium">Fascia d'età</label>
-                        <input class="rounded fw-semibold" type="number" name="age" id="age">
+                        <label for="age" class="py-3 fw-medium d-block">Fascia d'età</label>
+                        <!-- <input class="rounded fw-semibold" type="number" name="age" id="age"> -->
+                        <select name="age" id="age" class="rounded fw-semibold">
+                            <option id="mag" value="mag" selected>Maggiorenne</option>
+                            <option id="min" value="min">Minorenne</option>
+                            <option id="over" value="over">Over 65</option>
+                        </select>
                     </div>
                 </div>             
-                <!-- <select name="age" id="age">
-                    <option value="mag">Maggiorenne</option>
-                    <option value="min">Minorenne</option>
-                    <option value="over">Over 65</option>
-                </select> -->
+                
                 <button id="myButton" type="button" class="rounded">Genera</button>
                 <button class="rounded">Annulla</button>
             </form>

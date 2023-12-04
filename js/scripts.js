@@ -48,12 +48,16 @@ myButton.addEventListener('click', function() {
     // 20% per i minorenni
     // 40% per gli over 65
 
-    if (ageValue < 18) {
+    let ageMin = document.getElementById('min');
+    // let ageMag = document.getElementById('mag');
+    let over = document.getElementById('over');
+
+    if (ageMin.selected == true) {
         priceTicket *= 0.8;
         console.log('prezzo',priceTicket, typeof priceTicket);
         document.querySelector('.ticketType').innerHTML = "Biglietto Minorenne";
     }
-    else if (ageValue >= 65){
+    else if (over.selected == true){
         priceTicket *= 0.6;
         console.log('prezzo',priceTicket, typeof priceTicket);
         document.querySelector('.ticketType').innerHTML = "Biglietto Over";
