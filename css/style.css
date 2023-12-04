@@ -1,0 +1,36 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bg_red{
+    background-color: #B91450;
+}
+
+.bg_grey{
+    background-color: #808080;
+}
+
+.border_red{
+    border: 1px solid #B91450;
+}
+
+label{
+    color: #B91450;
+}
+
+input{
+    border: 2px solid #B91450;
+    text-align: center;
+}
+
+button{
+    color: #B91450;
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+
+.border_ticket{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
